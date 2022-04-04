@@ -1,0 +1,119 @@
+body{
+    background-color: #acc1c5;
+    height: 100%;
+}
+
+h1 {
+    color: rgb(8, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    height: 300px;
+    width: 560px;
+    background-color: #369fb382;
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 100px 1fr 1fr;
+    margin: 0 auto;
+    border: 5px solid #6c7e7775
+}
+
+#weight-input{
+    height: 25px;
+    width: 270px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    align-self: center;
+    padding-left: 5px;
+}
+#wlabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+
+#height-input{
+    height: 25px;
+    width: 270px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    padding-left: 5px;
+}
+#hlabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+
+
+#bmi-output {
+    height: 25px;
+    width: 270px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: center;
+    padding-left: 5px;
+}
+#bmilabel {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    padding-top: 8px;
+    font-size: 20px;
+
+}
+
+#btn {
+    height: 30px;
+    width: 75px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+#table {
+    height: 100px;
+    width: 560px;
+    background-color:#a5cfd7;
+    margin: 0 auto;
+    border: 5px solid #d8ede5;
+    margin-top: 2px;
+    padding-top: 8px;
+}
+
+table, th, td {
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+#btnnn {
+    height: 30px;
+    width: 75px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: center;
+}
